@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navigation">
+        <div class="navItem">Logo</div>
+        <div id="dropList" class="navItem dropList">
+            <li><a href="#home">HOME</a>  </li>
+            <li> <a href="#about">About</a></li>
+            <li><a href="#instructors">instructors</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#news">news</a></li>
+            <li><a href="#contact">contact</a></li>
+        </div>
+        <div   class="navItem  menuDrop"><button onclick="menuDrop();">menu</button></div>
+    </nav>
+    <div id="home">
+        <img src="pics/home.jpg" alt="" srcset="" class="homePic">
+        <div class="homeTextLeft">Left</div>
+        <div class="homeTextCentered">Centered</div>
+    </div>
+    <div id="about">
+        <div class="aboutHeader">
+                <h1>Wellcome</h1>
+                <p>Lorem Ipsum was popularised In sit amet sapien eros Integer dolore magna aliqua Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>        
+        </div>
+        <div class="aboutPic">
+            <img src="pics/about.jpg" alt="" srcset="" >
+            <div class="aboutTextLeft">
+                <div class="aboutFlexContainer">
+                    <div class="aboutFlexContainerItem">
+                            <h3>Hello</h3>
+                            <p>Voluptates repudiandae Integer dolore lorem ipsum was popularised In sit amet sapien eros magna aliqua Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet</p>            
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aboutFooter">
+            <div class="aboutFooterItem">
+                <h2>Our Specials</h2>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+            </div>
+            <div class="aboutFooterItem">
+                    <h2>What We do</h2>
+                    <video width="400" controls>
+                            <source src="pics/mov_bbb.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video.
+                    </video>
+            </div>
+        </div>
+    </div>
+    <div id="instructors">
+        <div class="flex-container">
+            <h1>Our Instructors</h1>
+                <div class="flex-item">
+                    <div class="flex-sub-container">
+                        <div class="flex-sub-container-item-odd text">
+                            <h5>Magnam aliquam</h5>
+                            <p>Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</p>
+                        </div> 
+                         <div class="flex-sub-container-item pic"> <img src="pics/img1.jpg" alt="" srcset=""  > </div> 
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="flex-sub-container">
+                        <div class="flex-sub-container-item pic"> <img src="pics/img2.jpg" alt="" srcset=""  > </div> 
+                        <div class="flex-sub-container-item text">
+                                <h5>Magnam aliquam</h5>
+                                <p>Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</p>
+                        </div> 
+                    </div>
+                </div>
+                <div class="flex-item">
+                        <div class="flex-sub-container">
+                            <div class="flex-sub-container-item-odd text">
+                                <h5>Magnam aliquam</h5>
+                                <p>Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</p>
+                            </div> 
+                             <div class="flex-sub-container-item pic"> <img src="pics/img3.jpg" alt="" srcset=""  > </div> 
+                        </div>
+                    </div>
+                    <div class="flex-item">
+                        <div class="flex-sub-container">
+                            <div class="flex-sub-container-item pic"> <img src="pics/img4.jpg" alt="" srcset=""  > </div> 
+                            <div class="flex-sub-container-item text">
+                                    <h5>Magnam aliquam</h5>
+                                    <p>Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</p>
+                            </div> 
+                        </div>
+                </div>
+        </div>
+    </div>
+    <div id="services"></div>
+    <div id="gallery">
+            <div class="gallery-flex-container">
+                    <div class="flex-item-gallery-header"><h1>Gallery</h1></div>
+                     <div class="flex-item-gallery"> <img src="pics/g1.jpg" alt="" srcset=""> <div class="popOn"><h1 class="popOnText">pop</h1></div>   </div>
+                     <div class="flex-item-gallery"><img src="pics/g2.jpg" alt="" srcset=""><div class="popOn"><h1 class="popOnText">pop</h1></div> </div>
+                     <div class="flex-item-gallery"><img src="pics/g3.jpg" alt="" srcset=""><div class="popOn"><h1 class="popOnText">pop</h1></div> </div>  
+                      <div class="flex-item-gallery"><img src="pics/g4.jpg" alt="" srcset=""><div class="popOn"><h1 class="popOnText">pop</h1></div> </div>
+                     <div class="flex-item-gallery"><img src="pics/g5.jpg" alt="" srcset=""><div class="popOn"><h1 class="popOnText">pop</h1></div> </div>
+                     <div class="flex-item-gallery"><img src="pics/g6.jpg" alt="" srcset=""><div class="popOn"><h1 class="popOnText">pop</h1></div> </div>  
+            </div>
+    </div>
+    <div id="news">
+            <div class="news-flex-container">
+                    <h1>News</h1>
+                        <div class="news-flex-item">
+                            <div class="news-flex-sub-container">
+                                    <div class="news-flex-sub-container-item-pic"> <img src="pics/g1.jpg" alt="" srcset=""  > </div> 
+                                    <div class="news-flex-sub-container-item-text">
+                                            <h5>October 20, 2016</h5>
+                                             
+                                            <p>Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</p>
+                                    </div>    </div>
+                        </div>
+                        <div class="news-flex-item">
+                            <div class="news-flex-sub-container">
+                                <div class="news-flex-sub-container-item-pic"> <img src="pics/g4.jpg" alt="" srcset=""  > </div> 
+                                <div class="news-flex-sub-container-item-text">
+                                        <h5>October 20, 2016</h5>
+                                         
+                                        <p>Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</p>
+                               </div> 
+                            </div>
+                        </div>
+                        <div class="news-flex-item">
+                                <div class="news-flex-sub-container">
+                                        <div class="news-flex-sub-container-item-pic"> <img src="pics/g5.jpg" alt="" srcset=""  > </div> 
+                                        <div class="news-flex-sub-container-item-text">
+                                                <h5>October 20, 2016</h5>
+                                                
+                                                <p>Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</p>
+                                  </div> 
+                                            </div>
+                        </div>
+                        <div class="news-flex-item">
+                            <div class="news-flex-sub-container">
+                                    <div class="news-flex-sub-container-item-pic"> <img src="pics/g2.jpg" alt="" srcset=""  > </div> 
+                                    <div class="news-flex-sub-container-item-text">
+                                            <h5>October 20, 2016</h5>
+                                             
+                                            <p>Adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</p>
+                           </div> 
+                        </div>
+                    </div>
+            </div>
+    </div>
+    <div id="contact">
+        <div class="contactForm-flex-container">
+            <div class="contactForm-header"><h1>Contact Us</h1></div>
+            <div class="contactForm-form-flex-item">
+                <div class="contactForm">
+                    <form action="/action_page.php">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+                    
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+            </div>
+            <div class="contactForm-text-flex-item">
+                <p>"Lorem Ipsum"is the common name dummy text often used in the design, printing, and type setting industriescommon name dummy text often used in the design, printing, and type setting industries. "</p>
+                <p>Address</p>
+                <p>Email</p>
+                <p>Phone</p>
+            </div>
+    </div>
+    </div>
+</body>
+</html>
+<script>
+    function menuDrop(){
+
+        let menu = document.getElementById("dropList");
+        
+        if(menu.style.display==""){
+            menu.style.display="block";
+            let pos = -250;
+            let id = setInterval(frame, 1);
+            function frame() {
+                if (pos >= 272) {
+                    clearInterval(id);
+                    
+                } else {
+                    pos+=10; 
+                    menu.style.marginTop = pos + 'px'; 
+                }
+            }
+        }else if(menu.style.display=="none"){
+            menu.style.display="block";
+            let pos = -250;
+            let id = setInterval(frame, 1);
+            function frame() {
+                if (pos >= 272) {
+                    clearInterval(id);
+                    
+                } else {
+                    pos+=10; 
+                    menu.style.marginTop = pos + 'px'; 
+                }
+            }
+        }else{
+            let pos = 273;
+            let id = setInterval(frame, 1);
+            function frame() {
+                if (pos <= -250) {
+                    clearInterval(id);
+                    menu.style.display="none";
+                } else {
+                    pos-=10; 
+                    menu.style.marginTop = pos + 'px'; 
+                }
+            }
+            
+        }
+    }
+</script>
